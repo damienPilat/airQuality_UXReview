@@ -1,0 +1,120 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>UX Exploration - Air Quality App</title>
+
+    <meta name="description"
+          content="A complete User Experience Research and Design Project on the creation of an Air Quality mobile application. The research phase consistes of an exploration of the space air quality has in todays society, followed by a review of current dominant players is undertaken. Feature Exploration and Definition is undertaken leading to iterations of low and high fidelity prototypes leading with regular evaluations and testing">
+    <meta name="author" content="Damien Pilat">
+    <meta name="robots" content="index, follow">
+    <meta name="rating" content="safe for kids">
+
+
+    <!--  Stylesheets  -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!--  JQuery  -->
+    <script src="scripts/libraries/jquery-3.6.0.min.js"></script>
+    <!--  Slick Library  -->
+    <script src="scripts/libraries/slick.min.js"></script>
+
+    <!--  Custom Scripts  -->
+    <script src="scripts/custom/helper.js"></script>
+    <script src="scripts/custom/creater.js"></script>
+    <script src="scripts/data/endScripts.js"></script>
+    <!--  Data Storage  -->
+    <script src="scripts/data/data.js"></script>
+    <script src="scripts/data/table_data.js"></script>
+    <script src="scripts/data/carousel_data.js"></script>
+
+
+    <noscript>This website relies on JavaScript to deliver its content and unfortunately cannot work without it.
+    </noscript>
+</head>
+
+<body>
+
+<div id="title-bar">
+    <h1 class="title" id="main-title-text">Air Quality App</h1>
+    <h2 class="title" id="secondary-title-text">A UX Research & Design Exploration</h2>
+</div>
+
+<!--  Main content of website -> Dynamically called through populateSections() based on data in the data.js file -->
+<div id="content">
+    <!--  Video element (manually added)  -->
+    <!--  Reason this is manually added:
+            To dynamically add elements to the Dom, I used the key 'type' to define the dom element type, which means it doesnt support for 'type' as an attribute of a dom element.
+            v2 is working on making this possible
+            -->
+    <video class="showcase-vid" autoplay muted controls>
+        <source src="media/video/appShowcase.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="220" height="450"
+            src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FoJg7khkUJ3o9A094yLZ4V5%2FDS-Air-Pollution-App%3Fpage-id%3D0%253A1%26node-id%3D482%253A5046%26viewport%3D-6140%252C251%252C1.0673329830169678%26scaling%3Dmin-zoom"
+            allowfullscreen></iframe>
+</div>
+
+<div id="footer">
+    <p id="acknowledgments">Website created by Damien Pilat.<br>
+        All content, artwork, and illustrated created by author unless otherwise stated.<br>
+        Icon pack developed by SmashIcons.
+        Video created using Previewed.app.
+    </p>
+</div>
+
+
+<script>
+    // Run all end scripts
+    initiateEndScripts();
+
+
+    // TESTING -> updating customElement and populateElement functions to support 'type' tag of 'source' dom elements
+    let testData = {
+        "testElement": {
+            0: {
+                domType: 'video',
+                className: 'testVid',
+                children: {
+                    0: {
+                        domType: 'source',
+                        src: 'media/video/appShowcase.mp4',
+                        type: 'video/mp4',
+                        muted: true
+                    }
+                }
+            }
+        }
+    };
+
+    let domContainer = document.getElementById('content');
+    // console.log("testElement:", testData['testElement']);
+    domContainer.appendChild(customElement_v2(testData['testElement'][0]));
+
+    let testVideo = document.getElementsByClassName('testVid')[0];
+    testVideo.autoplay = true;
+    testVideo.load();
+    // console.log("testVideo:", testVideo);
+
+    let mainVideo = document.getElementsByClassName('showcase-vid')[0];
+    mainVideo.muted = false;
+    // console.log("mainVid_Muted?", mainVideo);
+
+
+</script>
+
+
+<script src="js/vendor/modernizr-3.11.2.min.js"></script>
+
+</body>
+
+</html>
