@@ -654,7 +654,7 @@ let sectionDetails = {
                             id: 'hiFi-iframe-element',
                             width: 180,
                             height: 380,
-                            src: 'https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FoJg7khkUJ3o9A094yLZ4V5%2FDS-Air-Pollution-App%3Fpage-id%3D0%253A1%26node-id%3D482%253A5046%26viewport%3D-6140%252C251%252C1.0673329830169678%26scaling%3Dmin-zoom'
+                            src: 'https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FoJg7khkUJ3o9A094yLZ4V5%2FDS-Air-Pollution-App%3Fpage-id%3D0%253A1%26node-id%3D467%253A647%26viewport%3D1842%252C110%252C0.2582710385322571%26scaling%3Dmin-zoom'
                         }
                     }
                 }
