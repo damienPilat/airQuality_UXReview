@@ -25,7 +25,7 @@ let sectionDetails = {
                 1: {
                     type: 'p',
                     className: 'sectionParagraph',
-                    innerText: 'Societal interest in gaining access to immediate, accurate, and prediction air quality information has increased significantly. The goal of this article is to explore the opportunity for a novel air quality application for the general public. This is done through a complete User Experience (UX) Research and Design project. The research phase consists of firstly unmasking the current global landscape for such a product, exploring paths taken by existing and similar products, and collecting a set of potential requirements based on this initial research. The design phase consists of firmly supporting core requirements, carrying out a real world and conceptual design exploration followed by iterative interlocking stages of prototyping and testing from the low-fidelity to the high-fidelity prototypes.',
+                    innerText: 'Societal interest in gaining access to immediate, accurate, and predicted air quality information has increased significantly. The goal of this article is to explore the opportunity for a novel air quality application for the general public. This is done through a complete User Experience (UX) Research and Design project. The research phase consists of firstly unmasking the current global landscape for such a product, exploring paths taken by existing and similar products, and collecting a set of potential requirements based on this initial research. The design phase consists of firmly supporting core requirements, carrying out a real world and conceptual design exploration followed by iterative interlocking stages of prototyping and testing from the low-fidelity to the high-fidelity prototypes.',
                 }
             }
         }
@@ -72,11 +72,11 @@ let sectionDetails = {
                         1: {
                             type: 'p',
                             className: 'sectionParagraph',
-                            innerText: 'Air quality can be calculated in a number of ways, and a number of locations. Professionally, air quality has been explored by building specialists in order to ensure a large number of people can safely coexist in a given space. As seen by relatively recent cases of asbestos in buildings, air quality hasn\'t been seriously and universally considered or even understood until recently.\n' +
+                            innerText: 'Air quality can be calculated in a number of ways, and a number of locations. Professionally, air quality has been explored by building experts in order to ensure a large number of people can safely coexist in a given space. As seen by relatively recent cases of asbestos in buildings (leading to pollutant, even cancerous air), air quality hasn\'t been seriously and universally considered or even understood until recently.\n' +
                                 '\n' +
-                                'With a better understanding of dangerous particles in the air for humans, society has gained an interest in improving the health of individuals through direct actions to reduce the level of pollutants in our air. In a capitalist world, commercial and industrial interest usually drives innovation. In this case, this was true and so were governmental initiatives to reduce the presence of scientifically proven cancerougous elements.\n' +
+                                'With a better understanding of dangerous particles in the air for humans, society has gained an interest in improving the health of individuals through direct actions to reduce the level of pollutants in our air. In a capitalist world, commercial and industrial interest usually drives innovation. This was indeed the case here, and was supplemented by governmental initiatives to reduce the presence of scientifically proven cancerougous elements.\n' +
                                 '\n' +
-                                'Another avenue is the increase of individuals moving to bigger cities, in part leading to an increase in pollutants in populated areas. This has even led to visual indicators of poor air quality levels as can be seen in the image 1 below.'
+                                'Another avenue is the increase in urban migration, in part leading to an increase in pollutants in populated areas. This has even led to extreme cases visual indicators of poor air quality levels as can be seen in the image 1 below.'
                         },
                         2: {
                             type: 'div',
@@ -114,7 +114,7 @@ let sectionDetails = {
                             className: 'sectionParagraph',
                             innerText: 'In the early years, data on key pollutants was not regularly collected across the world. The availability of hyper localized data wasn\'t even an option as national statistics were only a broad estimate.\n' +
                                 '\n' +
-                                'This is where the journey of air quality metrics starts to align with that of weather metrics. Weather applications were initially only of great concern to the industrial sector, and only gained in interest truly when national and international transport through air became a commonality. This led to the need for accurate and reliable weather information and even forecasts for regions to ensure safe travel. Once these commercial challenges were addressed, the technology could be miniaturized and its accuracy increased to allow for more locational sensitive measurement (i.e. going from satellite and high altitude weather stations to localised street level ministations).\n' +
+                                'This is where the journey of air quality metrics starts to align with that of weather metrics. Weather applications were initially only of great concern to the industrial sector, and only gained popularity truly when national and international transport through air became a commonality. This led to the need for accurate and reliable weather information and even forecasts for regions to ensure safe travel. Once these commercial challenges were addressed, the technology could be miniaturized and its accuracy increased to allow for more locational sensitive measurement (i.e. going from satellite and high altitude weather stations to localised street level ministations).\n' +
                                 '\n' +
                                 'As it stands today, the availability of air quality data has exponentially increased. There are over 300 dedicated stations across the UK, with many of these becoming micro stations placed directly on the street to get hyper localised data.',
                         },
@@ -129,7 +129,7 @@ let sectionDetails = {
                             className: 'sectionParagraph',
                             innerText: 'As is the case with many novel data collection initiatives, different entities implemented different strategies. These diverging practices are not an issue when a few key players employ them and the need for cross communication is not high. However, as more nations and institutions were wanting to gain access to accurate data regarding key pollutants, this became more of a hurdle.\n' +
                                 '\n' +
-                                'There are currently 11 main national measurements by countries such as Canada, Mexic, Singapore, Europe and the United States. While this is a great indicator of serious undertaking by major countries to better track and monitor pollutants, it means that cross-country cooperation is hindered by the need to translate measurements for useful comparison. Another issue that arries is that each nation has an interest in having low air quality levels, which may lead to them creating a system that skews the data.\n' +
+                                'There are currently 11 different national measurements by nations such as Canada, Mexico, Singapore, Europe and the United States. While this is a great indicator of serious undertaking by major countries to better track and monitor pollutants, it means that cross-country cooperation is hindered by the need to translate measurements for useful comparison. Another issue that arises is that each nation has an interest in having low air quality levels, which may lead to them creating a system that skews the data.\n' +
                                 '\n' +
                                 'All these are elements that would be fixed by having an international measurement unit. Ensuring compatibility, transparency, and global historical data would be beneficial for all people across the globe.',
                         },
@@ -144,7 +144,7 @@ let sectionDetails = {
                             innerText: 'In summary, we have seen how society has gained a bigger understanding and interest in air quality. Both governments and institutions have led the push to increase the availability and accuracy of data across the world, although differences in measurements still exist.\n' +
                                 'The similarities of air quality applications with weather applications has been uncovered and should continue to be a pillar of exploration in this project.\n' +
                                 '\n' +
-                                'Pollutants high up in the atmosphere affect individuals at a different level than those on street level. This is where micro-stations previously mentioned, placed directly on the street level, are highly beneficial. These micro-stations (see Figure 2) paired with larger infrastructures allow for a greater accuracy for day to day use by the general public, as well as greater reliability for national entities'
+                                'Pollutants high up in the atmosphere affect individuals at a different level than those on street level. This is where micro-stations, previously mentioned, placed directly on the street level, are highly beneficial. These micro-stations (see Figure 2) paired with larger infrastructures allow for a greater accuracy for day to day use by the general public, as well as greater reliability for national entities'
                         },
                         10: {
                             type: 'div',
@@ -296,7 +296,7 @@ let sectionDetails = {
                                 16: {
                                     type: 'p',
                                     className: 'sectionParagraph',
-                                    innerText: 'It is often the bane of a designer of wanting to create the unattainable. While imagination aids in driving technological advancements, one must consider the viability of a proposed design to ensure its success. With that in mind, this section looks at the work done to explore potential data sources to understand their capabilities and limitations. This is a vital spot into being able to define accurate requirements based on what is currently available.'
+                                    innerText: 'Wanting to create the unattainable is often the bane of a designer. While imagination aids in driving technological advancements, one must consider the viability of a proposed design to ensure its success. With that in mind, this section looks at the work done to explore potential data sources to understand their capabilities and limitations. This is a vital spot into being able to define accurate requirements based on what is currently available.'
                                 },
                                 17: {
                                     type: 'h5',
@@ -374,7 +374,7 @@ let sectionDetails = {
                                 28: {
                                     type: 'p',
                                     className: 'sectionParagraph',
-                                    innerText: 'Of great utility for software engineers and developers is the construction of a sequence diagram. This diagram shows how an action triggered by a key player gets executed with all relevant parties. In this case the main players are the User and the System, and other parties are the API providers and the meta generated for the user. All this can be seen in the Figure 4 below.\n' +
+                                    innerText: 'Of great utility for software engineers and developers is the construction of a sequence diagram. This diagram shows how an action triggered by a key player gets executed with all relevant parties. In this case the main players are the User and the System, and other parties are the API providers and the meta data generated for the user. All this can be seen in the Figure 4 below.\n' +
                                         'A note to read Sequence diagrams. All action flows from the top to the bottom. Actions from one actor to another follow arrows and must take the next arrow leaving towards the right before being able to take any arrow going to the left. Gray squares indicate decision points where based on the condition in the top left corner, the sequence within that part of the decision square can be carried out.'
                                 },
                                 29: {
@@ -423,8 +423,19 @@ let sectionDetails = {
                 },
                 2: {
                     type: 'div',
-                    className: 'carousel',
-                    id: 'designEx-carousel'
+                    className: 'carousel-container',
+                    children: {
+                        0: {
+                            type: 'div',
+                            className: 'carousel',
+                            id: 'designEx-carousel'
+                        },
+                        1: {
+                            type: 'p',
+                            className: 'carousel-caption',
+                            innerText: 'Designer comments on pallet of conceptual design inspirations (colour coded, traffic light system).'
+                        }
+                    }
                 }
             }
         }
@@ -509,8 +520,19 @@ let sectionDetails = {
                 },
                 4: {
                     type: 'div',
-                    className: 'carousel',
-                    id: 'lowFi-carousel'
+                    className: 'carousel-container',
+                    children: {
+                        0: {
+                            type: 'div',
+                            className: 'carousel',
+                            id: 'lowFi-carousel'
+                        },
+                        1: {
+                            type: 'p',
+                            className: 'carousel-caption',
+                            innerText: 'Hand Sketches used for Participant Testing.'
+                        }
+                    }
                 },
                 5: {
                     type: 'h3',
@@ -605,13 +627,24 @@ let sectionDetails = {
                 },
                 5: {
                     type: 'div',
-                    className: 'carousel',
-                    id: 'hiFi-carousel'
+                    className: 'carousel-container',
+                    children: {
+                        0: {
+                            type: 'div',
+                            className: 'carousel',
+                            id: 'hiFi-carousel'
+                        },
+                        1: {
+                            type: 'p',
+                            className: 'carousel-caption',
+                            innerText: 'Iterative components enabling rapid and iterative prototyping.'
+                        }
+                    }
                 },
                 6: {
                     type: 'p',
                     className: 'sectionParagraph',
-                    innerText: 'This allowed for situations like that seen in Figure 5, to be created very easily which is very useful when getting participants input on different design decisions.'
+                    innerText: 'This allowed for conceptual designs to be created very easily (as seen in Figure 5) which is very useful when getting participants input on different design decisions.'
                 },
                 7: {
                     type: 'div',
@@ -687,7 +720,7 @@ let sectionDetails = {
                 1: {
                     type: 'p',
                     className: 'sectionParagraph',
-                    innerText: 'This project saw the undertaking of a detailed User Experience Research and Design undertaking on a mobile application for providing air quality information. Starting off with placing air quality in context, the processus then went to analysing existing products, carrying out a design exploration phase and from there requirements gathering.\n' +
+                    innerText: 'This project saw the undertaking of a detailed User Experience Research and Design undertaking on a mobile application for providing air quality information. Starting off with placing air quality in context, the processes analysed existing products, carrying out a design exploration phase and from there requirements gathering.\n' +
                         'Initial user feedback from low-fidelity sketches led to an iterative approach for high-fidelity prototyping.'
                 }
             }
@@ -720,7 +753,7 @@ let sectionDetails = {
                 1: {
                     type: 'p',
                     className: 'sectionParagraph',
-                    innerText: 'No project can have enough testing, especially when its not been officially launched. While the long-term goal would be to successfully develop and launch this product, the short-term goal would be to continue testing the high-fidelity prototype. Carrying out user testing with potential users, conducting heuristic evaluations as well as calling on qualified individuals to carry out expert evaluations all whilst continuing an iterative approach would be very beneficial.\n' +
+                    innerText: 'No project can have enough testing, especially when it has not been officially launched. While the long-term goal would be to successfully develop and launch this product, the short-term goal would be to continue testing the high-fidelity prototype. Carrying out user testing with potential users, conducting heuristic evaluations as well as calling on qualified individuals to carry out expert evaluations all whilst continuing an iterative approach would be very beneficial.\n' +
                         'The development of this product as a usable app would benefit from continuing the iterative approach. This would consist of creating a minimum viable product based on the core requirements defined in this project. Once created and launched, optional requirements defined would be iteratively implemented alongside continuous live user testing to better improve the overall experience.'
                 }
             }
